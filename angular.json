@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/m03-s05-exercicios",
+            "outputPath": "dist/m03-s06-exercicios",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "M03S05Exercicios:build:production"
+              "browserTarget": "M03S06Exercicios:build:production"
             },
             "development": {
-              "browserTarget": "M03S05Exercicios:build:development"
+              "browserTarget": "M03S06Exercicios:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "M03S05Exercicios:build"
+            "browserTarget": "M03S06Exercicios:build"
           }
         },
         "test": {
